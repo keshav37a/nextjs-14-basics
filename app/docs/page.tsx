@@ -1,3 +1,5 @@
-const DocsPage = () => <div>Docs Page</div>;
+const DocsPage = () => {
+    return <div>Hello Docs</div>;
+};
 
 export default DocsPage;
