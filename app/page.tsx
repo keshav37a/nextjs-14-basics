@@ -1,3 +1,10 @@
+import NewToDoForm from '../components/NewToDoForm';
+
 export default function Home() {
-    return <div>Hello Home Page</div>;
+    return (
+        <div>
+            <span>Hello Home Page</span>
+            <NewToDoForm />
+        </div>
+    );
 }
